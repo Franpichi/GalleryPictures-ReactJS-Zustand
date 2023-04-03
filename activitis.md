@@ -27,24 +27,36 @@ Construir una interfaz de usuario interactiva y visualmente atractiva.
 
 La tarea consiste en utilizar un conjunto de datos JSON que se te proporcionará para crear una aplicación React que muestre imágenes en mosaicos. Tu aplicación debe permitir a los usuarios cambiar entre dos páginas. La primera página debería mostrar todas las imágenes, mientras que la segunda debería mostrar sólo las imágenes que le han gustado al usuario.
 
-    1- Imagenes en mosaicos
+   HECHO 1- Imagenes en mosaicos
     2- Dos paginas navegables
-    3- Home: Imagenes
+    HECHO 3- Home: Imagenes 
     4- Segunda Page: Mostrar las imagenes seleccionadas por el usuario.
 
 Cada mosaico debe mostrar la imagen, el nombre del fotógrafo y una opción para que los usuarios den "me gusta" a la imagen. No es necesario que la opción de "me gusta" sea persistente.
 
-    1- Info mosaico: Imagen, nombre del autor, ME GUSTA (Boton)
+    HECHO 1- Info mosaico: Imagen, nombre del autor, ME GUSTA (Boton)
     2- Puede no ser persistente
 
 Para completar esta tarea, te pedimos que utilices componentes con estilo y una herramienta de gestión de estados, preferiblemente Zustand. Tendrás un máximo de dos semanas para completar esta tarea.
 
     1- Componentes con buenos estilos
-    2- Herramienta de gestion de estados (Zustand)
+    HECHO 2- Herramienta de gestion de estados (Zustand)
 
 ----------------------------
+SOLICITUDES SIMPLIFICADOS
+
+
+2- Segunda Page: Mostrar las imagenes seleccionadas por el usuario.
+3- Puede no ser persistente
+4- Componentes con buenos estilos
+
+
+
 A REALIZAR
 
 1- Estilos iguales colores footer y navbar
-2- ItemCount pasar a ingles
-3- log en itemcount
+2- acomodar el boton de las tarjetas en el medio
+3- el titulo de la tarjeta en el medio
+4- buscar una buena fuente
+5- resolver tamaño de imagenes
+6- Sacar el search, quizas poner el logo
