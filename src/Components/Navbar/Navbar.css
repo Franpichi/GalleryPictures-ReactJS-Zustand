@@ -1,0 +1,31 @@
+.navbar {
+  margin-top: 1rem;
+  height: 7rem;
+  background-color: white;
+  border-radius: 0%;
+  border: solid 0px black;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.nav-link {
+  margin-left: 2rem;
+  color:	rgb(108,116,180) ;
+  font-size: 1.7rem;
+  font-family: 'Righteous', cursive;
+}
+.navbar-nav {
+  margin-left: 33rem;
+}
+.brand {
+  margin-left: 3rem;
+  border-radius: 10%;
+}
+.button-user {
+  border: none;
+  background-color: white;
+  font-family: 'Righteous', cursive;
+  font-size: 1.2rem;
+  margin-right: 3rem;
+  color:	rgb(108,116,180) ;
+}

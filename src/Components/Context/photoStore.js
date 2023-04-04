@@ -16,6 +16,9 @@ const usePhotoStore = create((set, get) => ({
     const savedImages = get().savedImages;
     set({ savedImages: [...savedImages, photo] });
   },
+  clearSavedImages: () => {
+    set({ savedImages: [] });
+  }
 }));
 
 export default usePhotoStore;

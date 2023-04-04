@@ -1,0 +1,11 @@
+.footer {
+    background-color: white;
+    font-family: 'Righteous', cursive;
+    color:	rgb(108,116,180);
+}
+.link-media {
+    text-decoration: none;
+}
+.copy {
+    font-size: 0.9rem;
+}

@@ -46,9 +46,9 @@ Para completar esta tarea, te pedimos que utilices componentes con estilo y una 
 SOLICITUDES SIMPLIFICADOS
 
 
-2- Segunda Page: Mostrar las imagenes seleccionadas por el usuario.
 3- Puede no ser persistente
-4- Componentes con buenos estilos
+
+
 
 
 
@@ -62,3 +62,6 @@ A REALIZAR
 6- Sacar el search, quizas poner el logo
 7- navbar dentro de otro componente
 8- poner estilos en cada componente
+9- fijarme si puedo poner el componente savebuton en la carpeta context
+10- Ordenar el codigo
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import usePhotoStore from '../Context/photoStore';
 import SaveButton from '../Store/saveButton';
+import '../Item/Item.css'
 
 const Item = () => {
   const photos = usePhotoStore((state) => state.photos);
@@ -14,7 +15,7 @@ const Item = () => {
               <img src={photo.url} className="card-img-top image" alt={`Imagen de ${photo.photographer}`} />
               <div className="card-body">
                 <h5 className="card-title">{photo.photographer}</h5>
-                <SaveButton photo={photo} />
+                <SaveButton photo={photo} className="button-save"/>
               </div>
             </div>
           </div>

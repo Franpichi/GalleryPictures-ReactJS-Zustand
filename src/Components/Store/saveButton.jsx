@@ -9,7 +9,7 @@ const SaveButton = ({ photo }) => {
   };
 
   return (
-    <button className="btn btn-primary" onClick={handleSaveClick}>Save</button>
+    <button className="button-save" onClick={handleSaveClick}>Save</button>
   );
 };
 

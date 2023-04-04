@@ -1,5 +1,7 @@
 import React from 'react';
 import usePhotoStore from '../Context/photoStore';
+import ClearButton from '../Store/clearButton';
+import { Link } from 'react-router-dom';
 const Gallery = () => {
   const savedImages = usePhotoStore((state) => state.savedImages);
 
@@ -13,6 +15,8 @@ const Gallery = () => {
           </div>
         ))}
       </div>
+      <ClearButton />
+      <li className="nav-item"><Link className='nav-link' to={"/"}>Home</Link></li>
     </div>
   );
 };
