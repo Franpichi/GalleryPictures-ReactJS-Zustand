@@ -1,10 +1,10 @@
 body {
-  margin: 0px;
-  font-family: 'Righteous', cursive;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+    font-family: 'Righteous', cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Righteous', cursive;
+    font-family: 'Righteous', cursive;
 }

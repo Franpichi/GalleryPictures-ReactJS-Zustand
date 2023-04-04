@@ -1,5 +1,6 @@
 import React from 'react';
-import usePhotoStore from '../Context/photoStore';
+import usePhotoStore from './photoStore';
+import '../Gallery/Gallery.css'
 
 const ClearButton = () => {
   const clearSavedImages = usePhotoStore((state) => state.clearSavedImages);
@@ -9,7 +10,7 @@ const ClearButton = () => {
   };
 
   return (
-    <button className="btn btn-danger" onClick={handleClearClick}>Clear</button>
+    <button className='button-clear' onClick={handleClearClick}>Clear All</button>
   );
 };
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import usePhotoStore from '../Context/photoStore';
-import SaveButton from '../Store/saveButton';
+import SaveButton from '../Context/saveButton';
 import '../Item/Item.css'
 
 const Item = () => {

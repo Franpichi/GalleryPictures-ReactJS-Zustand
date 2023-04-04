@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import Item from './Components/Item/Item';
-import SaveButton from './Components/Store/saveButton';
 import usePhotoStore from './Components/Context/photoStore';
 import Gallery from './Components/Gallery/Gallery';
 const App = () => {
@@ -20,7 +19,6 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Item />} />
-          <Route path="/store" element={<SaveButton />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
         <Footer />
