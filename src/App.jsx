@@ -1,29 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Navbar/Navbar';
-import Footer from './Footer/Footer';
-import Item from './Item/Item';
-import Store from './Store/Store';
+import Footer from './Components/Footer/Footer';
+import Navbar from './Components/Navbar/Navbar';
+import Item from './Components/Item/Item';
+import SaveButton from './Components/Store/saveButton';
+import usePhotoStore from './Components/Context/photoStore';
+import Gallery from './Components/Gallery/Gallery';
 const App = () => {
+  const initStore = usePhotoStore((state) => state.init);
+
+  useEffect(() => {
+    initStore();
+  }, [initStore]);
+
   return (
     <>
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Item/>}/>
-        <Route path='/store' element={<Store/>}/>
-
-      </Routes>
-      <Footer />
-    </BrowserRouter>
-
-
-
-
-
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Item />} />
+          <Route path="/store" element={<SaveButton />} />
+          <Route path="/gallery" element={<Gallery />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;

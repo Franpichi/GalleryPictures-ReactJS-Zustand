@@ -9,7 +9,7 @@ export const Navbar = React.memo(() => {
     <div className="collapse navbar-collapse" id="navbarColor01">
       <ul className="navbar-nav me-auto">
         <li className="nav-item"><Link className='nav-link' to={"/"}>Home</Link></li>
-        <li className="nav-item"><Link className='nav-link' to={"/store"}>Store</Link></li>
+        <li className="nav-item"><Link className='nav-link' to={"/gallery"}>Gallery</Link></li>
       </ul> 
 
         <button className="boton" type="submit">

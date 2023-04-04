@@ -60,3 +60,5 @@ A REALIZAR
 4- buscar una buena fuente
 5- resolver tamaño de imagenes
 6- Sacar el search, quizas poner el logo
+7- navbar dentro de otro componente
+8- poner estilos en cada componente
